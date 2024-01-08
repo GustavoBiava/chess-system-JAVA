@@ -4,7 +4,7 @@ import boardGame.Board;
 import boardGame.Piece;
 import chess.enums.Color;
 
-public class ChessPiece extends Piece {
+public abstract class  ChessPiece extends Piece {
     private Color color;
 
     public ChessPiece() {
@@ -19,5 +19,4 @@ public class ChessPiece extends Piece {
     public Color getColor() {
         return color;
     }
-
 }
